@@ -8,3 +8,209 @@
 a {
   text-decoration: none;
 }
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* header  */
+header {
+  padding: 3.8rem 16.5rem 0px;
+  background-color: #e6f0ff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__menu {
+  margin-left: 6.5rem;
+}
+
+.nav__menu a {
+  color: #4f5361;
+  margin-left: 3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.nav__buttons {
+  margin-left: auto;
+}
+
+.nav__buttons--signUp {
+  color: #0f1b4c;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background-color: inherit;
+}
+
+.nav__buttons--register {
+  background-color: #0f1b4c;
+  color: #ffffff;
+  border-radius: 0.8rem;
+  width: 9.8rem;
+  height: 4rem;
+  margin-left: 1.8rem;
+  font-size: 1.4rem;
+}
+
+.header__contents {
+  display: flex;
+}
+
+.header__contents--text {
+  margin-top: 13rem;
+}
+
+.header__contents--textWelcome {
+  color: #687690;
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.18px;
+}
+
+.header__contents--textHeading {
+  color: #000336;
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 7.6rem;
+  margin-top: 0.8rem;
+}
+
+.header__contents--textDetails {
+  color: #5a6473;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  text-transform: capitalize;
+  margin-top: 3rem;
+}
+
+.header__contents--textDetails span {
+  text-transform: lowercase;
+}
+
+.header__contents--textButton {
+  background-color: #0f1b4c;
+  color: #ffffff;
+  width: 17rem;
+  height: 5rem;
+  border-radius: 1.2rem;
+  margin-top: 4rem;
+}
+
+.header__contents--img {
+  position: relative;
+  left: 10rem;
+  margin-top: 4.7rem;
+}
+
+/*  main */
+main {
+  margin-top: 7.9rem;
+}
+
+.main__clientsLogo {
+  padding: 4.3rem 16.5rem 4.1rem;
+}
+
+.main__clientsLogo--content {
+  display: flex;
+}
+
+.main__clientsLogo--contentText p {
+  margin-top: 2.3rem;
+  color: #7d8589;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.main__clientsLogo--contentReview {
+  margin-left: auto;
+}
+
+.main__clientsLogo--contentReview p {
+  margin-top: 1rem;
+  color: #7d8589;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.main__clientsLogo--cards {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Hiw */
+.main__hiw {
+  margin-top: 4rem;
+  padding: 7.9rem 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__hiw--heading {
+  color: #000339;
+  font-size: 3.5rem;
+  line-height: 6.5rem;
+  font-weight: 600;
+}
+
+.main__hiw--des {
+  color: #5a6473;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.main__hiw--types {
+  margin-top: 7rem;
+  display: flex;
+}
+
+.main__hiw--typesItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__hiw--typesItem:nth-of-type(2) {
+  margin: 0px 14rem;
+}
+
+.main__hiw--typesItem h5 {
+  margin-top: 2.6rem;
+  color: #3b3c45;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+}
+
+.main__hiw--typesItem a {
+  color: #0689ff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.main__hiw--typesSellFull {
+  width: 17rem;
+  height: 5rem;
+  border-radius: 1.2rem;
+  background: #0f1b4c;
+  color: #ffffff;
+  margin-top: 5rem;
+  font-size: 1.3rem;
+}
