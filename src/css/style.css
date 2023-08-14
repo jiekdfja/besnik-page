@@ -214,3 +214,78 @@ main {
   margin-top: 5rem;
   font-size: 1.3rem;
 }
+
+/* features */
+.main__features {
+  margin-top: 4.1rem;
+  background-color: #f5fafe;
+}
+
+.main__features--1 {
+  padding: 11rem 16.5rem;
+}
+
+.main__features--1Text {
+  display: flex;
+  align-items: flex-end;
+}
+
+.main__features--1TextLeft h3 {
+  color: #000339;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+}
+
+.main__features--1TextLeft p {
+  color: #5a6473;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-top: 1.5rem;
+}
+
+.main__features--1TextRight {
+  margin-left: auto;
+  color: #0689ff;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.main__features--1Cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7rem;
+}
+
+.main__features--1CardsItem {
+  padding-bottom: 2.5rem;
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+}
+
+.main__features--1CardsItemPrice {
+  color: #000339;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.main__features--1CardsItemDes {
+  color: #a3a6ab;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 0.8rem;
+  margin-left: 2rem;
+}
+
+.main__features--1CardsItemBedandBoth {
+  margin-top: 2.1rem;
+}
+
+.main__features--1CardsItemBedandBoth img {
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
