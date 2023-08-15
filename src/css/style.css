@@ -165,6 +165,18 @@ main {
   font-size: 3.5rem;
   line-height: 6.5rem;
   font-weight: 600;
+  position: relative;
+}
+
+.main__hiw--heading::before {
+  content: "";
+  position: absolute;
+  width: 4.1rem;
+  height: 0.4rem;
+  background-color: #000336;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 1.2rem;
 }
 
 .main__hiw--des {
@@ -288,4 +300,10 @@ main {
 .main__features--1CardsItemBedandBoth img {
   margin-left: 2rem;
   margin-right: 1rem;
+}
+
+/* feature 2 */
+.main__features--2 {
+  margin-top: 7.5rem;
+  padding: 5rem 19.6rem;
 }
