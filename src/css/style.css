@@ -306,7 +306,6 @@ main {
 .main__features--2 {
   margin-top: 7.5rem;
   padding: 5rem 19.6rem;
-  background-color: yellow;
   height: 78.5rem;
 }
 
@@ -396,7 +395,23 @@ main {
 }
 
 .main__features--2Count {
-  margin-top: 500px;
+  margin-top: 33.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__features--2CountItem h5 {
+  color: #000;
+  font-size: 6.4rem;
+  font-weight: 600;
+  line-height: 6.4rem;
+}
+
+.main__features--2CountItem p {
+  color: #7b8087;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 2.4rem;
 }
 
 /* newsletter */
